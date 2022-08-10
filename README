@@ -1,1 +1,18 @@
-# WoPerformance-docker-nginx
+# Docker NGINX PHP(7.4 & 8.1) and SupervisorD using Alpine 3.15
+Example PHP-FPM 8.1, PHP-FPM 7.4 & Nginx 1.21 container image for Docker, built on [Alpine Linux](https://www.alpinelinux.org/).
+
+* Built on the lightweight and secure Alpine Linux distribution
+* Multi-platform, supporting AMD4, ARMv6, ARMv7, ARM64
+* Uses PHP 8.1 for better performance, lower CPU usage & memory footprint
+* The services Nginx, nginx config watcher, PHP-FPM and supervisord.
+* The logs of all the services are redirected to the output of the Docker container (visible with `docker logs -f <container name>`)
+
+## Description
+PHP-FPM, NGINX, NGINX config watcher and Supervisord for Docker build on [Alpine Linux](http://www.alpinelinux.org/).
+More information later. 
+
+## Bugs
+Please report any bugs or issues you find. Thanks!
+
+## License
+[![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://en.wikipedia.org/wiki/MIT_License)
